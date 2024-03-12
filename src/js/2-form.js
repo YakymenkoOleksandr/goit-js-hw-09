@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
       feedbackForm.reset();
       localStorage.removeItem('feedback-form-state');
     } else {
-      alert('Both email and message fields must be filled.');
+      alert('Поле для вводу електронної пошти та поле для вводу паролю мають бути заповнені.');
     }
   });
 });
